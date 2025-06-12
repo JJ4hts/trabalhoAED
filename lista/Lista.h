@@ -3,7 +3,7 @@
 #define LISTA_H
 
 //#include "tad.cpp"
-#include "tad.h"
+#include "tad/tad.h"
 Node* criaLista();
 int vaziaLista(Node *lista);
 Node* insereIniLista(Node* lista, int elem);

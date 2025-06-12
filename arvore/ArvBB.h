@@ -1,7 +1,7 @@
 #ifndef ARVBB_H
 #define ARVBB_H
 
-#include "tad.h"
+#include "tad/tad.h"
 
 ArvBB* criaABB();
 int vaziaABB(ArvBB* raiz);

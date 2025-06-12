@@ -2,7 +2,7 @@
 
 #define TAD_H
 
-#include "tad.cpp"
+#include "tad/tad.cpp"
 //typedef struct node Node;
 //typedef struct pilha Pilha;
 

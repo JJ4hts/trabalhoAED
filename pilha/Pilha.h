@@ -3,7 +3,8 @@
 #define PILHA_H
 
 //#include "tad.cpp"
-#include "tad.h"
+#include "tad/tad.h"
+
 Pilha* criaPilha();
 int vaziaPilha(Pilha* pilha);
 Pilha* push(Pilha* pilha, int valor);

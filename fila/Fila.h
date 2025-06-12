@@ -2,7 +2,7 @@
 
 #define FILA_H
 
-#include "tad.h"
+#include "tad/tad.h"
 
 Fila* criaFila();
 int vaziaFila(Fila *fila);

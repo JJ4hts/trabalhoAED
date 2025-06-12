@@ -1,9 +1,9 @@
 #include <iostream>
-#include "lista/Lista.h"
+#include "tad/tad.h"
 #include "pilha/Pilha.h"
 #include "fila/Fila.h"
-#include "lista/Lista.h"
 #include "arvore/ArvBB.h"
+#include "lista/Lista.h"
 #include <locale.h>
 
 using namespace std;
