@@ -1,9 +1,9 @@
 #include <iostream>
-#include "Lista.h"
-#include "Pilha.h"
-#include "Fila.h"
-#include "Lista.h"
-#include "ArvBB.h"
+#include "lista/Lista.h"
+#include "pilha/Pilha.h"
+#include "fila/Fila.h"
+#include "lista/Lista.h"
+#include "arvore/ArvBB.h"
 #include <locale.h>
 
 using namespace std;
@@ -11,12 +11,12 @@ using namespace std;
 int main(){
     //padronizando acentuação
     setlocale(LC_ALL,"");
-    /*
     //código de teste da biblioteca lista.h
     Node *lista;
+    Node *lista2;
     lista = criaLista();
     lista2 = criaLista();
-    int = valor = 0;
+    int valor = 0;
     lista = insereOrdLista(lista,4);
     lista = insereOrdLista(lista,-12);
     lista = insereOrdLista(lista,32);
@@ -47,7 +47,6 @@ int main(){
     printLista(lista);
     lista = esvaziarLista(lista);
     printLista(lista);
-    destroiLista(lista);
 
     reverseLista(lista);
     printLista(lista);
@@ -56,8 +55,6 @@ int main(){
     cout << "A lista 1 � uma sublista da lista 2? " << valor << endl;
     valor = isSubLista(lista2,lista);
     cout << "A lista 2 � uma sublista da lista 1? " << valor << endl;
-
-*/
 
    
 /*
